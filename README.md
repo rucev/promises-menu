@@ -16,4 +16,4 @@ Nombre del archivo bastante autoexplicativo.
 
 
 #### ¿Y ya esta?
-En un futuro espero que proximo quiero probar a hacerlo con una cosa que se llama callback, y describir y explicar mejor el porqué de cada cosa.
+En un futuro, espero que proximo, quiero probar a hacerlo con una cosa que se llama callback, y describir y explicar mejor el porqué de cada cosa.
