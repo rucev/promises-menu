@@ -13,24 +13,16 @@ const playHug = () => {
     rl.question("\n\t", (option) => {
       rl.pause();
       if (option > 0 && option < optionsAvailable.length) {
-        setTimeout(
-          () => resolve(optionsAvailable[option].function()),
-          0
-        ); /*este último cero es el tiempo que tardará en resolverse la promesa*/
+        resolve(optionsAvailable[option].function());
       } else {
-        setTimeout(
-          () => reject(optionsAvailable[0].function() + process.exit(0)),
-          0
-        ); /*el cero es lo mismo que antes pero ahora rechazando la promesa*/
+        reject(optionsAvailable[0].function() + process.exit(0));
       }
     });
   });
 
-  promise.then(
-    (value) => {
-      playHug(), value;
-    }
-  );
+  promise.then((value) => {
+    playHug(), value;
+  });
 };
 
 playHug();
