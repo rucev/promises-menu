@@ -8,14 +8,12 @@ El archivo options y el json sirven para todos los demás, son la base de un pro
 En este archivo he hecho el resto del programa siguiendo bastante lo explicado en las clases del bootcamp.
 
 #### Promises-then.js
-En este pruebo una forma de aplicar promesas que he visto por internet (Ejemplo y explicación: https://www.freecodecamp.org/news/javascript-promises-explained/)
+En este pruebo una forma de aplicar promesas que he visto por internet (algún día insertaré aquí la referencia)
 
 #### No-promise.js
-Nombre del archivo bastante autoexplicativo. Aquí se usa recursividad: la función se llama a sí misma. (Más info en: https://www.freecodecamp.org/espanol/news/como-entender-recursividad-en-javascript/)
+Nombre del archivo bastante autoexplicativo.
 
 
 
 #### ¿Y ya esta?
-En un futuro, espero que proximo, quiero probar a hacerlo con una cosa que se llama callback (Esto de aquí: https://www.w3schools.com/js/js_callback.asp). Parece bastante parecido a la opción de recursividad, igual incluso es lo mismo y me falta acabar de entenderlo.
-
-También me gustaria describir y explicar más detalladamente el porqué de cada cosa.
+En un futuro, espero que proximo, quiero probar a hacerlo con una cosa que se llama callback, y describir y explicar mejor el porqué de cada cosa.
